@@ -1,0 +1,71 @@
+.infoHero-section{
+    margin-top: 4rem;
+    width: 90%;
+    height: 560px;
+    margin-bottom: 4rem;
+}
+
+.infoHero-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoHero-icon{
+    margin-top: 2rem;
+    position: relative;
+}
+
+.infoHero-icon-container{
+    height: 80%;
+    width: 1260px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0px 50px;
+    gap: 10px;
+}
+
+.line{
+    z-index: 999;
+    position: absolute;
+    top:3%;
+    left: 28%;
+    width: 200px;
+    object-fit: contain;
+}
+
+.line-1{
+    z-index: 999;
+    position: absolute;
+    top:25%;
+    left: 58%;
+    width: 200px;
+    object-fit: contain;
+}
+
+.infoHero-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.infoHero-card img{
+    width: 150px;
+    object-fit: contain;
+}
+
+.infoHero-card p{
+    text-align: center;
+    width: 50%;
+}
+
+.first{
+    margin-top: 6rem;
+}
+
+.second{
+    margin-top: 12rem;
+}

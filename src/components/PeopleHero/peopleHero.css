@@ -1,0 +1,76 @@
+.peopleHero-section{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 90%;
+    height: 560px;
+}
+
+.peopleHero-container{
+    margin: .5rem 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start;
+    justify-content: center; */
+}
+
+.peopleHero-title h2{
+    text-align: center;
+}
+
+.peopleHero-title img{
+    width: 50px;
+    object-fit: contain;
+}
+
+.peopleHero-card-container{
+    height: 80%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.peopleHero-card{
+    height: 45vh;
+    width: 220px;
+    background-color: #F7FDF9;
+    border-radius: 20px;
+    border:transparent;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.middle{
+    background-color: white;
+    border: 1px solid #F7FDF9;
+}
+
+.middle .peopleHero-circle{
+    background-color: #F7FDF9 ;
+}
+
+.peopleHero-circle{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    border-radius: 50%;
+    color:white;
+    display: flex;
+}
+
+.peopleHero-circle h3{
+    align-self: center;
+    margin: 0 30%;
+    color: var(--primary);
+}
+
+.peopleHero-text p{
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+    margin-left: 0.5rem;
+}

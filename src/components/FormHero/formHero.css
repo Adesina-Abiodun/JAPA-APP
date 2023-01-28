@@ -1,0 +1,108 @@
+.formHero-section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 860px;
+  background-color: #f7fdf9;
+}
+
+.formHero-container {
+  margin: 0.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.formHero-container img{
+    position: absolute;
+    width: 100px;
+    top: 12%;
+    object-fit: contain;
+}
+
+.formHero-title {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.formHero-title h2 {
+  margin-left: 28rem;
+}
+
+.formHero-form {
+  margin-top: 2rem;
+  width: 70%;
+  height: 650px;
+  margin-left: 12rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+form {
+  width: 85%;
+  height: 90%;
+  margin: 2rem 8rem;
+}
+
+.input-table {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.input-column,
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row input {
+  width: 250px;
+  height: 45px;
+  border: 1px solid #979797;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.input-form {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+textarea{
+    height: 75px;
+}
+
+.input-form input{
+    height: 45px;
+}
+
+input[type="submit"] {
+  background-image: linear-gradient(90deg, var(--primary), rgb(11, 210, 197));
+  margin-top: 1.2rem;
+  width: 200px;
+  height: 42px;
+  border: transparent;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  color: var(--primary);
+  background: white;
+}

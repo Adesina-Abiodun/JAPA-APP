@@ -1,0 +1,52 @@
+.feature-section{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 90%;
+    height: 560px;
+}
+
+.feature-container{
+    margin: .5rem 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.feature-table{
+    width: 75%;
+}
+
+.feature-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.feature-icon{
+    flex:.5
+}
+
+.feature-icon img{
+    width: 150px;
+    object-fit: contain;
+}
+
+.feature-text{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.feature-text h3{
+    letter-spacing: 0.125em;
+    font-weight: 400;
+}
+
+.feature-text p{
+    width: 80%;
+}
