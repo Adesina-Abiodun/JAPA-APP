@@ -8,7 +8,7 @@ const PeopleHero = () => {
       <div className="peopleHero-container">
         <div className="peopleHero-title">
           <h2>What People Say</h2>
-          <img src={people} alt={people} />
+          <img loading='lazy' src={people} alt={people} />
         </div>
         <div className="peopleHero-card-container">
           <div className="peopleHero-card">

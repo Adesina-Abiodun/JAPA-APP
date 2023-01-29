@@ -52,7 +52,7 @@
 }
 
 .hero-text-container img {
-  z-index: 999;
+  /* z-index: 999; */
   width: 400px;
   object-fit: contain;
   position: absolute;

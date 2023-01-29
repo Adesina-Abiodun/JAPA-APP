@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="nav-section">
       <nav>
         <div className="nav-title">
-          <img src={logo} alt={logo} />
+          <img loading='lazy' src={logo} alt={logo} />
         </div>
         <div className="nav-link">
           <ul>

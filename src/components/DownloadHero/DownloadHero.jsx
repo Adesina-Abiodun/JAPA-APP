@@ -12,11 +12,11 @@ const DownloadHero = () => {
                     <h1>Coming Soon!</h1>
                 </div>
                 <div className="downloadHero-img">
-                    <img src={logo} alt={logo} />
+                    <img loading='lazy' src={logo} alt={logo} />
                 </div>
                 <div className="downloadHero-icons">
-                    <img src={google} alt={google} />
-                    <img src={apple} alt={apple} />
+                    <img loading='lazy' src={google} alt={google} />
+                    <img loading='lazy' src={apple} alt={apple} />
                 </div>
             </div>
         </div>

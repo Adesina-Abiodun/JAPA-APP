@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-container">
         <aside className="hero-text">
           <div className="hero-text-container">
-            <img src={plane} alt={plane} />
+            <img loading='lazy' src={plane} alt={plane} />
             <h3>Introducing Japa</h3>
             <h1>
               Providing the best steps on moving{" "}
@@ -28,7 +28,7 @@ const Hero = () => {
         </aside>
         <aside className="hero-img">
             <div className="hero-img-container">
-                <img src={phone} alt={phone} />
+                <img loading='lazy' src={phone} alt={phone} />
             </div>
         </aside>
       </div>

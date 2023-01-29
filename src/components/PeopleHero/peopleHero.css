@@ -34,7 +34,7 @@
 .peopleHero-card{
     height: 45vh;
     width: 220px;
-    background-color: #F7FDF9;
+    background-color: #F4FAF6;
     border-radius: 20px;
     border:transparent;
     padding: 5px 10px;
@@ -46,11 +46,11 @@
 
 .middle{
     background-color: white;
-    border: 1px solid #F7FDF9;
+    border: 1px solid #F4FAF6;
 }
 
 .middle .peopleHero-circle{
-    background-color: #F7FDF9 ;
+    background-color: #F4FAF6 ;
 }
 
 .peopleHero-circle{

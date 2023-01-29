@@ -14,7 +14,7 @@ const Feature = () => {
         <div className="feature-table">
           <div className="feature-row">
             <div className="feature-icon">
-              <img src={info} alt={info} />
+              <img loading='lazy' src={info} alt={info} />
             </div>
             <div className="feature-text">
               <h3>Get Info</h3>
@@ -28,7 +28,7 @@ const Feature = () => {
 
           <div className="feature-row">
             <div className="feature-icon">
-              <img src={bot} alt={bot} />
+              <img loading='lazy' src={bot} alt={bot} />
             </div>
             <div className="feature-text">
               <h3 style={{ color: "var(--primary" }}>Chat with Bot</h3>
@@ -42,10 +42,10 @@ const Feature = () => {
 
           <div className="feature-row">
             <div className="feature-icon">
-              <img src={plane} alt={plane} />
+              <img loading='lazy' src={plane} alt={plane} />
             </div>
             <div className="feature-text">
-              <h3>Get Info</h3>
+              <h3 style={{ color: "var(--primary" }}>Get Info</h3>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.

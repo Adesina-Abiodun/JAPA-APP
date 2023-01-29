@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer-section">
       <div className="footer-container">
         <div className="footer-icon">
-          <img src={logo} alt={logo} />
+          <img loading='lazy' src={logo} alt={logo} />
           <p>
             Get all informations you need to travel out and process involved.
           </p>
@@ -42,10 +42,10 @@ const Footer = () => {
         <div className="footer-connect">
             <h3>Connect with Us</h3>
             <div className="footer-icons">
-                <img src={twitter} alt={twitter} />
-                <img src={insta} alt={insta} />
-                <img src={Lin} alt={Lin} />
-                <img src={face} alt={face} />
+                <img loading='lazy' src={twitter} alt={twitter} />
+                <img loading='lazy' src={insta} alt={insta} />
+                <img loading='lazy' src={Lin} alt={Lin} />
+                <img loading='lazy' src={face} alt={face} />
             </div>
         </div>
       </div>
