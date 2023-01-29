@@ -1,12 +1,16 @@
 .nav-section {
-  width: 75%;
+  width: 100vw;
   height: 10vh;
-  position: sticky;
-  background-color: transparent;
-  margin: .5rem 4rem;
+  top:0;
+  position: fixed;
+  background-color: white;
+  margin: auto 0;
+  z-index: 9999;
 }
 
 .nav-section nav {
+  width: 90%;
+  margin-left: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
