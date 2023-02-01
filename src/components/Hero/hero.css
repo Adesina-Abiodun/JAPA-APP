@@ -130,4 +130,7 @@
   .hero-text-container img {
     display: none;
   }
+  .hero-img-container img {
+    margin-left: -1rem;
+  }
 }

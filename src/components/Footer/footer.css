@@ -116,4 +116,11 @@
     .footer-icons{
         margin: 0;
     }
+    .footer-container div{
+        align-items: center;
+    }
+
+    .footer-link ul{
+        margin-left: -2rem;
+    }
 }

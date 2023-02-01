@@ -73,6 +73,10 @@ form {
   padding-left: 1rem;
 }
 
+.input-form input {
+  padding-left: 1rem;
+}
+
 label {
   font-weight: 500;
   margin-bottom: 1rem;
@@ -141,11 +145,16 @@ input[type="submit"]:hover {
   .input-row {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0;
   }
 
   .input-row input {
     width: 90%;
     height: 45px;
+  }
+
+  .input-form{
+    margin-bottom: 0;
   }
 
   label {
@@ -154,7 +163,7 @@ input[type="submit"]:hover {
 
   .formHero-form{
     width: 95%;
-    height: 900px;
+    height: 800px;
     margin-left: 2rem;
   }
 }
