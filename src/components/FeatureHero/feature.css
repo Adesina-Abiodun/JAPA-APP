@@ -84,4 +84,8 @@
     .feature-text p{
         text-align: center;
     }
+
+    .feature-icon img{
+        margin-left: -1.5rem;
+    }
 }
