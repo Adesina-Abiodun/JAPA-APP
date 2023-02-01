@@ -12,3 +12,13 @@
 .japa-container{
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .japa-homepage{
+    width: 100vw;
+    /* overflow-x:scroll ; */
+  }
+  .japa-container{
+    min-width: 85%;
+  }
+}

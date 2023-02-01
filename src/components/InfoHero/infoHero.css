@@ -1,71 +1,109 @@
-.infoHero-section{
-    margin-top: 4rem;
-    width: 90%;
-    height: 560px;
-    margin-bottom: 4rem;
+.infoHero-section {
+  margin-top: 4rem;
+  width: 90%;
+  height: 560px;
+  margin-bottom: 4rem;
 }
 
-.infoHero-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.infoHero-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.infoHero-icon{
-    margin-top: 2rem;
-    position: relative;
+.infoHero-icon {
+  margin-top: 2rem;
+  position: relative;
 }
 
-.infoHero-icon-container{
-    height: 80%;
-    width: 1260px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding: 0px 50px;
-    gap: 10px;
+.infoHero-icon-container {
+  height: 80%;
+  width: 1260px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 50px;
+  gap: 10px;
 }
 
-.line{
-    z-index: 999;
-    position: absolute;
-    top:3%;
-    left: 28%;
-    width: 200px;
-    object-fit: contain;
+.line {
+  z-index: 999;
+  position: absolute;
+  top: 3%;
+  left: 28%;
+  width: 200px;
+  object-fit: contain;
 }
 
-.line-1{
-    z-index: 999;
-    position: absolute;
-    top:25%;
-    left: 58%;
-    width: 200px;
-    object-fit: contain;
+.line-1 {
+  z-index: 999;
+  position: absolute;
+  top: 25%;
+  left: 58%;
+  width: 200px;
+  object-fit: contain;
 }
 
-.infoHero-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+.infoHero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.infoHero-card img{
-    width: 150px;
-    object-fit: contain;
+.infoHero-card img {
+  width: 150px;
+  object-fit: contain;
 }
 
-.infoHero-card p{
-    text-align: center;
-    width: 50%;
+.infoHero-card p {
+  text-align: center;
+  width: 50%;
 }
 
-.first{
-    margin-top: 6rem;
+.first {
+  margin-top: 6rem;
 }
 
-.second{
-    margin-top: 12rem;
+.second {
+  margin-top: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+    .infoHero-section{
+        margin-top: 6rem;
+        height: 1024px;
+    }
+
+    .infoHero-container {
+        margin: 0 3.5rem;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .line, .line-1{
+        display: none;
+    }
+
+    .infoHero-icon-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoHero-icon {
+        margin-top: 0;
+    }
+
+    .infoHero-card p {
+        margin-top: 1rem;
+        width: 20%;
+    }
+
+    .first,.second{
+        margin-top: 3rem;
+    }
 }
