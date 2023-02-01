@@ -1,38 +1,54 @@
-.downloadHero-section{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    width: 100%;
-    height: 560px;
+.downloadHero-section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 560px;
 }
 
-.downloadHero-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+.downloadHero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.downloadHero-img img{
-    width: 600px;
-    object-fit: contain;
+.downloadHero-img img {
+  width: 600px;
+  object-fit: contain;
 }
 
-.downloadHero-icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.downloadHero-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.downloadHero-icons img{
-    margin-top: 2rem;
-    cursor: pointer;
+.downloadHero-icons img {
+  margin-top: 2rem;
+  cursor: pointer;
 }
 
-.downloadHero-icons img:first-child{
-    margin-right: 4rem;
+.downloadHero-icons img:first-child {
+  margin-right: 4rem;
 }
-
 
 /* .downloadHero-title h1{
     text-align: center;
 } */
+
+@media screen and (max-width: 768px) {
+  .downloadHero-section {
+    height: 400px;
+  }
+  .downloadHero-img img {
+    width: 200px;
+  }
+
+  .downloadHero-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .downloadHero-icons img:first-child {
+    margin-right: 0;
+  }
+}

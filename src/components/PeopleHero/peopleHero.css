@@ -74,3 +74,37 @@
     width: 90%;
     margin-left: 0.5rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .peopleHero-section{
+        margin-top: 0;
+        height: 1120px;
+        margin-bottom: 2rem;
+    }
+
+    .peopleHero-container{
+        margin: 0 2rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .peopleHero-card-container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .peopleHero-title img{
+        display: none;
+    }
+
+    .peopleHero-card{
+        margin-bottom: 2rem;
+        height: 35vh;
+    }
+}

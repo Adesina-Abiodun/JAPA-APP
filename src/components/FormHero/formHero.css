@@ -14,11 +14,11 @@
   position: relative;
 }
 
-.formHero-container img{
-    position: absolute;
-    width: 100px;
-    top: 12%;
-    object-fit: contain;
+.formHero-container img {
+  position: absolute;
+  width: 100px;
+  top: 12%;
+  object-fit: contain;
 }
 
 .formHero-title {
@@ -83,12 +83,12 @@ label {
   margin-bottom: 2rem;
 }
 
-textarea{
-    height: 75px;
+textarea {
+  height: 75px;
 }
 
-.input-form input{
-    height: 45px;
+.input-form input {
+  height: 45px;
 }
 
 input[type="submit"] {
@@ -102,7 +102,59 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
   color: var(--primary);
   background: white;
+}
+
+@media screen and (max-width: 768px) {
+  .formHero-section {
+    margin-top: 0;
+    height: 1120px;
+    margin-bottom: 2rem;
+    /* background-color: transparent; */
+  }
+
+  .formHero-container {
+    margin: 0 .5rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .formHero-title h2 {
+    margin-left: 0;
+  }
+
+  .formHero-title h4 {
+    display: none;
+  }
+
+  .formHero-container img {
+    display: none;
+  }
+  form{
+    margin: .5rem 3rem;
+  }
+  .input-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-row input {
+    width: 90%;
+    height: 45px;
+  }
+
+  label {
+    margin-top: 1rem;
+  }
+
+  .formHero-form{
+    width: 95%;
+    height: 800px;
+    margin-left: 2rem;
+  }
 }

@@ -93,3 +93,27 @@
     margin-left: 1rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-section{
+        height: 90vh;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-contact,
+    .footer-link,
+    .footer-connect{
+        margin: 0 auto;
+    }
+    .footer-contact p{
+        width: 80%;
+    }
+
+    .footer-icons{
+        margin: 0;
+    }
+}

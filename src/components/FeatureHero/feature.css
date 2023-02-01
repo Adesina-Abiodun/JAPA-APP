@@ -50,3 +50,38 @@
 .feature-text p{
     width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+    .feature-section{
+        margin-top: 0;
+        height: 1120px;
+        margin-bottom: 2rem;
+    }
+
+    .feature-container{
+        margin: 0 3.5rem;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-table{
+        width: 100%;
+    }
+
+    .feature-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .feature-text h3{
+        margin-left: 5rem;
+    }
+
+    .feature-text p{
+        text-align: center;
+    }
+}
