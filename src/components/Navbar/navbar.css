@@ -33,18 +33,20 @@
   list-style-type: none;
 }
 
-.nav-link .nav-menu span {
+.nav-link .nav-menu a {
+  text-decoration: none;
+  color: var(--primary);
   width: 147px;
 }
 
-.nav-link .nav-menu span p {
+.nav-link .nav-menu a p {
   font-weight: 500;
   font-weight: 24px;
   margin-left: 1rem;
   cursor: pointer;
 }
 
-.nav-link .nav-menu span p:hover {
+.nav-link .nav-menu a p:hover {
   color: var(--primary);
   border: 2px solid transparent;
   border-bottom-color: var(--primary);
@@ -101,7 +103,7 @@
     z-index: -1;
   }
 
-  .nav-link .nav-menu span {
+  .nav-link .nav-menu a {
     width: 0;
   }
 

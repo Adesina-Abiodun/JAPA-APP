@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar/Navbar";
 import PeopleHero from "./components/PeopleHero/PeopleHero";
 
 function App() {
+
   return (
     <div className="japa-homepage">
       <div className="japa-container">

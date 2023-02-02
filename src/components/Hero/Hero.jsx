@@ -5,7 +5,7 @@ import plane from '../../img/plane.png'
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="section1">
       <div className="hero-container">
         <aside className="hero-text">
           <div className="hero-text-container">

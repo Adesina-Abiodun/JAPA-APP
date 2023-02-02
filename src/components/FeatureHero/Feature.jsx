@@ -6,7 +6,7 @@ import plane from '../../img/flight.png';
 
 const Feature = () => {
   return (
-    <div className="feature-section">
+    <div className="feature-section" id="section3">
       <div className="feature-container">
         <div className="feature-title">
           <h2>Features</h2>

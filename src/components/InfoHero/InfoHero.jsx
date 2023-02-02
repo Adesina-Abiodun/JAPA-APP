@@ -7,7 +7,7 @@ import line from "../../img/Line 10.png";
 
 const InfoHero = () => {
   return (
-    <div className="infoHero-section">
+    <div className="infoHero-section" id="section2">
       <div className="infoHero-container">
         <div className="infoHero-title">
           <h2>How It Works</h2>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../../img/logo-nav.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
@@ -6,6 +6,22 @@ import "./navbar.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  /* simply a temporary navigation for the single page,
+  suggest you use routing and state management when scaling */
+  useEffect(() => {
+    const handleChange = () => {
+      const elementId = window.location.hash.slice(1);
+      const element = document.getElementById(elementId);
+      if(element){
+        element.scrollIntoView();
+      }
+    };
+    window.addEventListener('hashchange', handleChange);
+    return () => {
+      window.removeEventListener('hashchange', handleChange);
+    }
+  }, []);
   return (
     <div className="nav-section">
       <nav>
@@ -16,29 +32,29 @@ const Navbar = () => {
           <ul className={click ? "nav-menu actives" : "nav-menu"}>
             <li>
               {/* replace with Link */}
-              <span>
+              <a href="#section1">
                 <p className="active">Home</p>
-              </span>
+              </a>
             </li>
             <li>
-              <span>
+              <a href="#section2">
                 <p>About</p>
-              </span>
+              </a>
             </li>
             <li>
-              <span>
+              <a href="#section3">
                 <p>How it works</p>
-              </span>
+              </a>
             </li>
             <li>
-              <span>
+              <a href="#section4">
                 <p>Features</p>
-              </span>
+              </a>
             </li>
             <li>
-              <span>
+              <a href="#section5">
                 <p>Contacts</p>
-              </span>
+              </a>
             </li>
           </ul>
           <div className="hamburger" onClick={handleClick}>
