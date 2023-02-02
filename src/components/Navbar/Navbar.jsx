@@ -5,8 +5,10 @@ import "./navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    setClick(!click)
 
+  }
   /* simply a temporary navigation for the single page,
   suggest you use routing and state management when scaling */
   useEffect(() => {
@@ -15,6 +17,7 @@ const Navbar = () => {
       const element = document.getElementById(elementId);
       if(element){
         element.scrollIntoView();
+        setClick(false);
       }
     };
     window.addEventListener('hashchange', handleChange);
