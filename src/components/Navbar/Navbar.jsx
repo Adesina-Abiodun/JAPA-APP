@@ -35,27 +35,27 @@ const Navbar = () => {
           <ul className={click ? "nav-menu actives" : "nav-menu"}>
             <li>
               {/* replace with Link */}
-              <a href="#section1">
+              <a href="#section0">
                 <p className="active">Home</p>
               </a>
             </li>
             <li>
-              <a href="#section2">
+              <a href="#section1">
                 <p>About</p>
               </a>
             </li>
             <li>
-              <a href="#section3">
+              <a href="#section2">
                 <p>How it works</p>
               </a>
             </li>
             <li>
-              <a href="#section4">
+              <a href="#section3">
                 <p>Features</p>
               </a>
             </li>
             <li>
-              <a href="#section5">
+              <a href="#section4">
                 <p>Contacts</p>
               </a>
             </li>
