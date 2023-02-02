@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="japa-homepage">
-      <div className="japa-container">
+      <div className="japa-container" id="section0">
         <Navbar />
         <Hero />
         <InfoHero />

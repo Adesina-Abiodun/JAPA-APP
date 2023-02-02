@@ -4,7 +4,7 @@ import people from "../../img/image 11.png";
 
 const PeopleHero = () => {
   return (
-    <div className="peopleHero-section" id="section4">
+    <div className="peopleHero-section">
       <div className="peopleHero-container">
         <div className="peopleHero-title">
           <h2>What People Say</h2>
