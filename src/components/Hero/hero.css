@@ -1,136 +1,150 @@
-.hero-section {
-  margin-top: 4rem;
-  width: 90%;
-  height: 456px;
-  margin: 0.5rem 4rem;
+/* Group 633096 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+p {
+  margin: 0;
 }
 
-.hero-container {
-  margin-top: 8rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+a {
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
 }
 
-.hero-text {
-  flex: 3;
+.vector {
+  width: 98vw;
+  height: 700.35px;
+  left: 27px
 }
 
-.hero-text-container {
+.group-633096 {
+  position: relative;
+  width: 97vw;
+  height: 85vh;
+  box-sizing: border-box;
+}
+
+.group-633095 {
+  width: 100%;
+  height: 730.05px;
+}
+
+.group-633093 {
+  position: absolute;
+  top: 100px;
+  left: 14%;
+  width: 100vw;
+  height: 568px;
+  box-sizing: border-box;
+}
+
+.frame-284 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* align-items: flex-start; */
-  width: 75%;
+  align-items: center;
+  gap: 48px;
+  width: 1038px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
-.hero-text-container h3 {
-  color: var(--primary);
-  font: 24px;
-  margin-bottom: 0;
+.group-633092 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0px 13px 1px;
+  box-sizing: border-box;
 }
 
-.hero-text-container h1 {
-  font-size: 48px;
-  margin-bottom: 0;
-  width: 90%;
-}
-
-.hero-text-container p {
+.unlock-your-global-adve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(89, 204, 128, 1);
+  font-size: 40px;
   line-height: 145%;
-  display: inline-block;
-  width: 75%;
-  /* position: relative; */
+  width: 80%;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  text-align: center;
 }
 
-.hero-text-container input {
-  width: 400px;
-  height: 36px;
-  color: #000;
-  background-color: #cccccc26;
-  border: 1px solid transparent;
+.we-provide-you-with-the-m {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(18, 18, 18, 1);
+  font-size: 20px;
+  line-height: 145%;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 48px;
 }
 
-.hero-text-container img {
-  /* z-index: 999; */
-  width: 400px;
-  object-fit: contain;
-  position: absolute;
-  bottom: 52%;
-  left: 40%;
-  right: 55%;
+.frame-286 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  box-sizing: border-box;
 }
 
-.hero-text-container button {
-  background-image: linear-gradient(90deg, var(--primary), rgb(11, 210, 197));
-  margin-top: 1.2rem;
-  width: 200px;
-  height: 42px;
-  border: transparent;
-  color: white;
-  font-weight: 600;
+.frame-285 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px
+}
+
+.enter-email {
+  padding: 11px 300px 11px 10px;
+  border: 2px solid rgba(219, 240, 221, 1);
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-color: rgba(249, 249, 249, 1);
+  color: rgba(18, 18, 18, 1);
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  width: 100%
+}
+
+/* Frame 282 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.frame-282hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 386px;
+  padding: 16px 11px;
+  border: 0px solid rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #59CC80 0%, #59C4BA 100%);
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
   cursor: pointer;
 }
 
-.hero-btn:hover {
-  color: var(--primary);
-  background: white;
-}
-
-::placeholder {
-  font-weight: 600;
-}
-
-.hero-img {
-  flex: 1;
-}
-
-.hero-img-container img {
-  width: 220px;
-  object-fit: contain;
-}
-
-@media only screen and (max-width: 768px) {
-  .hero-section {
-    margin-top: 2rem;
-    width: 400px;
-    height: 860px;
-    margin: 0 auto;
-  }
-  .hero-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
-  }
-  .hero-text {
-    width: 90%;
-    text-align: center;
-  }
-  .hero-text-container{
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .hero-text-container h1{
-    margin-top: 1rem;
-    font-size: 32px;
-  }
-
-  .hero-text-container input {
-    width: 75%;
-    height: 28px;
-  }
-  .hero-img {
-    margin-top: 2rem;
-  }
-  .hero-text-container img {
-    display: none;
-  }
-  .hero-img-container img {
-    margin-left: -1rem;
-  }
+.frame-282hero:hover {
+  background: #06491d;
+  color: white;
 }

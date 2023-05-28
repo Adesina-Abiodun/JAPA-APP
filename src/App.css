@@ -1,24 +1,25 @@
-:root{
+:root {
   --primary: #59CC7F;
 }
 
-.japa-homepage{
+.japa-homepage {
   scroll-behavior: smooth;
   width: 100vw;
   min-height: 100vh;
-  overflow-x:hidden ;
+  overflow: hidden;
 }
 
-.japa-container{
+.japa-container {
   width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-  .japa-homepage{
+  .japa-homepage {
     width: 100vw;
     /* overflow-x:scroll ; */
   }
-  .japa-container{
-    min-width: 85%;
+
+  .japa-container {
+    min-width: 25%;
   }
 }

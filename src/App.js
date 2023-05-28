@@ -1,12 +1,13 @@
 import "./App.css";
 import DownloadHero from "./components/DownloadHero/DownloadHero";
-import Feature from "./components/FeatureHero/Feature";
+import Solution from "./components/FeatureHero/Feature";
 import Footer from "./components/Footer/Footer";
 import FormHero from "./components/FormHero/FormHero";
 import Hero from "./components/Hero/Hero";
 import InfoHero from "./components/InfoHero/InfoHero";
 import Navbar from "./components/Navbar/Navbar";
 import PeopleHero from "./components/PeopleHero/PeopleHero";
+import FAQ from "./components/FAQs/FAQ";
 
 function App() {
 
@@ -16,9 +17,11 @@ function App() {
         <Navbar />
         <Hero />
         <InfoHero />
-        <Feature />
-        <PeopleHero />
-        <FormHero />
+        <Solution />
+        {/* <PeopleHero />
+        <FormHero />  */}
+        <br />
+        <FAQ/>
         <DownloadHero />
         <Footer />
       </div>

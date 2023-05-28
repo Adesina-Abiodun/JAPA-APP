@@ -1,76 +1,20 @@
-import React, { useState, useEffect } from "react";
-import logo from "../../img/logo-nav.png";
-import { FaBars, FaTimes } from "react-icons/fa";
-import "./navbar.css";
+import React from "react"
+import "./navbar.css"
 
-const Navbar = () => {
-  const [click, setClick] = useState(false);
-  const handleClick = () => {
-    setClick(!click)
-
-  }
-  /* simply a temporary navigation for the single page,
-  suggest you use routing and state management when scaling */
-  useEffect(() => {
-    const handleChange = () => {
-      const elementId = window.location.hash.slice(1);
-      const element = document.getElementById(elementId);
-      if(element){
-        element.scrollIntoView();
-        setClick(false);
-      }
-    };
-    window.addEventListener('hashchange', handleChange);
-    return () => {
-      window.removeEventListener('hashchange', handleChange);
-    }
-  }, []);
+export default function Frame283() {
   return (
-    <div className="nav-section">
-      <nav>
-        <div className="nav-title">
-          <img loading="lazy" src={logo} alt={logo} />
-        </div>
-        <div className="nav-link">
-          <ul className={click ? "nav-menu actives" : "nav-menu"}>
-            <li>
-              {/* replace with Link */}
-              <a href="#section0">
-                <p className="active">Home</p>
-              </a>
-            </li>
-            <li>
-              <a href="#section1">
-                <p>About</p>
-              </a>
-            </li>
-            <li>
-              <a href="#section2">
-                <p>How it works</p>
-              </a>
-            </li>
-            <li>
-              <a href="#section3">
-                <p>Features</p>
-              </a>
-            </li>
-            <li>
-              <a href="#section4">
-                <p>Contacts</p>
-              </a>
-            </li>
-          </ul>
-          <div className="hamburger" onClick={handleClick}>
-            {click ? (
-              <FaTimes size={30} style={{ color: "#59CC7F" }} />
-            ) : (
-              <FaBars size={30} style={{ color: "#59CC7F" }} />
-            )}
-          </div>
-        </div>
-      </nav>
+    <div className="frame-283 clip-contents">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/0agsmmjut70s-1046%3A753?alt=media&token=ccf7b06a-08f6-4bb2-a1f4-3befcb2e1b79"
+        alt="Not Found"
+        className="group"
+      />
+      <div className="frame-281">
+        <p className="home">Home</p>
+        <p className="about-us">About Us</p>
+        <p className="our-solution">Our Solution</p>
+        <p className="contact-us">Contact Us</p>
+      </div>
     </div>
-  );
-};
-
-export default Navbar;
+  )
+}
